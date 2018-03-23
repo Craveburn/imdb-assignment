@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>IMDB</title>
+</head>
+
+<body>
+    <!-- I chose header because I feel like this is the top part of the page -->
+    <header>
+        <!-- this is the top part of the page where the navagation filled with links are -->
+        <nav>
+            <!--there seems to be 4 seperate sections within the page-->
+            <section>
+                <!-- this is a link to the main page and other parts in the website -->
+                <a href="http://www.imdb.com/"> IMDB</a>
+            </section>
+            <section>
+                <a href="http://www.imdb.com/movies-in-theaters/?ref_=nv_tp_inth_1">Movies</a>
+                <a href="http://www.imdb.com/chart/toptv/?ref_=nv_tp_tv250_2">TV</a>
+                <a href="http://www.imdb.com/showtimes/?ref_=nv_tp_sh_3">Showtimes</a>
+            </section>
+            <section>
+                <a href="http://www.imdb.com/search/name?gender=male,female&ref_=nv_tp_cel_1">Celebs</a>
+                <a href="http://www.imdb.com/awards-central/?ref_=nv_tp_awrd_2">Events</a>
+                <a href="http://www.imdb.com/gallery/rg784964352?ref_=nv_tp_ph_3">Photos</a>
+            </section>
+            <section>
+                <a href="http://www.imdb.com/news/top?ref_=nv_tp_nw_1">News</a>
+                <a href="https://contribute.imdb.com/czone?ref_=nv_cm_cz_2">Contribute</a>
+            </section>
+            <section>
+                <a href="http://www.imdb.com/list/watchlist?ref_=nv_wl_all_0">Watchlist</a>
+            </section>
+        </nav>
+        <!-- this is the search part and the only part in semantics would be a div inside the form -->
+        <div>
+            <form>
+                <label for="search">Search</label>
+                <input id="search" type="text" name="search">
+            </form>
+        </div>
+    </header>
+    <!-- this is why you would want to come to this site because this holds all of the information -->
+    <main>
+        <nav>
+            <!--the list element seems to best give better info-->
+            <li>
+                <a href="http://www.imdb.com/title/tt2527336/fullcredits?ref_=tt_ql_1">Full Cast & Crew</a>
+                <a href="http://www.imdb.com/title/tt2527336/trivia?ref_=tt_ql_2">Trivia</a>
+                <a href="http://www.imdb.com/title/tt2527336/reviews?ref_=tt_ql_3">User Reviews</a>
+                <a href="https://pro.imdb.com/title/tt2527336?rf=cons_tt_contact&ref_=cons_tt_contact">IMDB Pro</a>
+            </li>
+        </nav>
+        <!-- This is the main title of the site -->
+        <h1>Star Wars: The Last Jedi
+            <a color="red" href="https://www.imdb.com/search/title?year=2017&title_type=feature&ref_=tt_ov_inf">(2017)</a>
+        </h1>
+        <!-- This is where they begin to share information about the synopsis-->
+        <article>
+            <!-- this seemed to be the subtitle -->
+            <h4>Star Wars: Episode VIII - The Last Jedi (original title)</h4>
+            <img src="https://ia.media-imdb.com/images/M/MV5BMjQ1MzcxNjg4N15BMl5BanBnXkFtZTgwNzgwMjY4MzI@._V1_UX182_CR0,0,182,268_AL_.jpg">
+            <p>Rey develops her newly discovered abilities with the guidance of Luke Skywalker, who is unsettled by the strength
+                of her powers. Meanwhile, the Resistance prepares for battle with the First Order.</p>
+            <!-- I created a ul section in order to better seperate the different titles-->
+            <ul>
+                <li>
+                    <!--span makes the title of the spot more targetable and easier to style -->
+                    <span>Director:</span>
+                    <a href="http://www.imdb.com/name/nm0426059/?ref_=tt_ov_dr">Rian Johnson</a>
+                </li>
+                <li> <span>Writers:</span>
+                    <a href="http://www.imdb.com/name/nm0426059/?ref_=tt_ov_dr">Rian Johnson</a> ,
+                    <a href="http://www.imdb.com/name/nm0000184/?ref_=tt_ov_wr">George Lucas</a> (based on characters created by)
+                </li>
+                <li><span>Stars:</span>
+                    <a href="http://www.imdb.com/name/nm5397459/?ref_=tt_ov_st_sm">Daisey Ridley</a> ,
+                    <a href="http://www.imdb.com/name/nm3915784/?ref_=tt_ov_st_sm">John Boyega</a> ,
+                    <a href="http://www.imdb.com/name/nm0000434/?ref_=tt_ov_st_sm">Mark Hamill</a> |
+                    <a href="http://www.imdb.com/title/tt2527336/fullcredits?ref_=tt_ov_st_sm">See Full Cast & Crew</a>
+                </li>
+            </ul>
+        </article>
+    </main>
+</body>
+
+</html>
